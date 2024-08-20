@@ -2,10 +2,9 @@
 
 namespace CurrencyConverterLibrary
 {
-    // The CurrencyConverter class encapsulates the logic for converting currencies
     public class CurrencyConverter
     {
-        // Properties to hold the currencies and the exchange rate
+        // Properties to hold the currencies and the exchange rate as mentioned
         public string FromCurrency { get; set; }
         public string ToCurrency { get; set; }
         public double ExchangeRate { get; set; }
@@ -21,23 +20,23 @@ namespace CurrencyConverterLibrary
             ExchangeRate = exchangeRate;
         }
 
-        // Method to convert the amount using the default exchange rate
+        
         public double ConvertAmount(double amount)
         {
-            // Increment the conversion count
+           
             IncrementConversionCount();
 
-            // Perform the conversion and return the result
+            //conversion
             return amount * ExchangeRate;
         }
 
-        // Overloaded method to convert the amount using a custom exchange rate
+       //Overloaded method
         public double ConvertAmount(double amount, double customRate)
         {
-            // Increment the conversion count
+            
             IncrementConversionCount();
 
-            // Perform the conversion with the custom rate and return the result
+            //conversion
             return amount * customRate;
         }
 
