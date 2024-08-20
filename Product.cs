@@ -2,13 +2,12 @@
 
 namespace VendingMachineSimulation
 {
-    // Abstract class Product representing a general product in the vending machine
+    // Abstract class Product representing products in the vending machine
     public abstract class Product
     {
-        // Property to store the product's name
         public string Name { get; protected set; }
 
-        // Abstract method to be implemented by derived classes for dispensing the product
+        // Abstract method for dispensing
         public abstract void Dispense();
     }
 }
