@@ -13,10 +13,7 @@ namespace VendingMachineSimulation
             Product snack = new Snack();
             Product beverage = new Beverage();
 
-            // Use the SelectProduct method to select and dispense a snack
             vendingMachine.SelectProduct(snack);
-
-            // Use the SelectProduct method to select and dispense a beverage
             vendingMachine.SelectProduct(beverage);
         }
     }
