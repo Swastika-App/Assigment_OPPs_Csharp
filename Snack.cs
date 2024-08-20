@@ -2,10 +2,9 @@
 
 namespace VendingMachineSimulation
 {
-    // Snack class inheriting from the abstract Product class
+    // inheritance from the abstract Product class
     public class Snack : Product
     {
-        // Constructor to set the name of the product to "Snack"
         public Snack()
         {
             Name = "Snack";
