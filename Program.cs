@@ -7,7 +7,7 @@ namespace CurrencyConverterApp
     {
         static void Main(string[] args)
         {
-            // Creating instances of CurrencyConverter for two different currency pairs
+            
             CurrencyConverter usdToInr = new CurrencyConverter("USD", "INR", 74.85);
             CurrencyConverter eurToUsd = new CurrencyConverter("EUR", "USD", 1.12);
 
